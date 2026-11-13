@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FAF5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- App Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌱 MealCycle"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#245C3A"/>
+
+        <!-- Welcome Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, Donor! 👋"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#245C3A"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your surplus food can make someone's day."
+            android:textSize="15sp"
+            android:textColor="#526456"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Add Food Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#E3F1E4"
+            android:layout_marginTop="28dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍱"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have surplus food?"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#245C3A"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share your extra food with people who need it."
+                android:textSize="14sp"
+                android:textColor="#526456"
+                android:layout_marginTop="6dp"/>
+
+            <Button
+                android:id="@+id/btnAddFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+ Add Food"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#287A49"
+                android:layout_marginTop="18dp"/>
+
+        </LinearLayout>
+
+        <!-- My Listings -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Food Listings"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#245C3A"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage the food you have shared."
+            android:textSize="14sp"
+            android:textColor="#526456"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnMyListings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View My Listings"
+            android:textAllCaps="false"
+            android:textColor="#287A49"
+            android:backgroundTint="#DCEBDD"
+            android:layout_marginTop="14dp"/>
+
+        <!-- Impact Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Contribution 🌍"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#245C3A"
+            android:layout_marginTop="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every food donation is a step towards reducing food waste."
+            android:textSize="14sp"
+            android:textColor="#526456"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Profile -->
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#287A49"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

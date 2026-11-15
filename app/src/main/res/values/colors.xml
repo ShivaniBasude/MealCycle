@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Brand Primary Colors (Eco Green) -->
+    <color name="primary">#1E6F3D</color>
+    <color name="primary_dark">#134E2A</color>
+    <color name="primary_light">#2E8B57</color>
+    <color name="primary_tint">#E8F5EB</color>
+    <color name="primary_tint_border">#C3E6CB</color>
+
+    <!-- Secondary / Accent Colors (Warm Amber / Orange for Food & Nutrition) -->
+    <color name="secondary">#E67E22</color>
+    <color name="secondary_dark">#D35400</color>
+    <color name="secondary_tint">#FDF2E9</color>
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="bg_main">#F6FAF6</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_card_secondary">#F0F6F1</color>
+    <color name="divider_color">#E1ECE2</color>
+    <color name="border_light">#D6E4D8</color>
+
+    <!-- Typography Colors -->
+    <color name="text_primary">#14281B</color>
+    <color name="text_secondary">#4D6353</color>
+    <color name="text_muted">#7C9283</color>
+    <color name="text_hint">#98ABA0</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Status Badges -->
+    <color name="badge_available_bg">#E8F5E9</color>
+    <color name="badge_available_text">#1B5E20</color>
+    <color name="badge_pending_bg">#FFF8E1</color>
+    <color name="badge_pending_text">#B78103</color>
+    <color name="badge_accepted_bg">#E3F2FD</color>
+    <color name="badge_accepted_text">#0D47A1</color>
+    <color name="badge_completed_bg">#E0F2F1</color>
+    <color name="badge_completed_text">#00695C</color>
+
+    <!-- Danger / Warning -->
+    <color name="danger">#D32F2F</color>
+    <color name="danger_bg">#FFEBEE</color>
+    <color name="danger_tint_border">#FFCDD2</color>
+
+    <!-- Basic -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
 </resources>
